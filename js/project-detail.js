@@ -9,15 +9,6 @@ const projects = {
         youtube: "https://www.youtube.com/embed/TU_VIDEO_ID",
         github: "https://github.com/iSantPy/crypto-data-pipeline"
     },
-    "excel-report-automation": {
-        title: "Excel Report Automation",
-        description: `
-            Python automation project to generate and maintain Excel reports,
-            reducing manual work and improving data consistency.
-        `,
-        youtube: "https://www.youtube.com/embed/TU_VIDEO_ID",
-        github: "https://github.com/iSantPy/Excel_Automation"
-    },
     "large-scale-webscraping": {
         title: "Large-Scale WebScraping",
         description: `
