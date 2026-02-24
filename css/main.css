@@ -84,6 +84,37 @@ p {
 }
 
 /* =========================
+   Project description (dynamic content)
+   ========================= */
+
+#project-description {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#project-description h3 {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+#project-description ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    list-style-type: disc;
+}
+
+#project-description li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+#project-description li::marker {
+    color: var(--accent);
+}
+
+/* =========================
    Tech stack & Contact (BASE FIX)
    ========================= */
 .tech-stack,
