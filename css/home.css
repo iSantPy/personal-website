@@ -68,8 +68,70 @@
     transform: translateY(-2px);
 }
 
+/* Testimonials */
+.testimonials {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 1000px;   /* mismo ancho visual que tech stack */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+/* Testimonial card */
+.card {
+    background: #1e293b;
+    padding: 24px;
+    border-radius: 12px;
+    color: var(--text-main);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Testimonial card */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Avatar */
+.testimonial-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 2px solid var(--accent);
+}
+
+/* Text */
+.testimonial-text {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
+/* Author */
+.testimonial-author strong {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+
+.testimonial-author span {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
 .tech-stack {
-    padding-top: -12px;   /* 👈 más cerca del hero */
+    padding-top: -12px;   
     padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
